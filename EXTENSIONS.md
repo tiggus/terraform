@@ -10,6 +10,8 @@ uses .tflint.hcl
 
 uses tflint.tf to trigger lint recommendations
 
+> https://github.com/terraform-linters/tflint
+
 ## checkov
 
 ``` sh
@@ -28,4 +30,14 @@ variable "checkov_toggle" {
 ```
 
 > https://www.checkov.io/2.Basics/CLI%20Command%20Reference.html
+
+## tfdocs
+
+```sh
+terraform-docs markdown table --output-file README.md --output-mode inject ./checkov
+```
+
+uses checkov dir to generate md
+
+> https://github.com/terraform-docs/terraform-docs
 

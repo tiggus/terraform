@@ -1,5 +1,6 @@
 variable "checkov_bucket" {
   default = "checkov"
+  description = "the name of the checkov bucket"
   type    = string
 }
 
