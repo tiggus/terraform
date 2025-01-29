@@ -1,5 +1,5 @@
 module "api" {
-  source = "./api/dynamic"
+  source       = "./api/dynamic"
   default_tags = var.default_tags
 }
 

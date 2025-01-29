@@ -7,11 +7,16 @@ variable "default_tags" {
 }
 
 variable "endpoint" {
-  type    = string
   default = "https://localhost:3939"
+  type    = string
 }
 
 variable "region" {
-  type    = string
   default = "eu-west-1"
+  type    = string
+}
+
+variable "checkov_bucket" {
+  default = "checkov"
+  type    = string
 }
