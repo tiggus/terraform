@@ -1,0 +1,6 @@
+{
+    "Url": "<identity provider uri>",
+    "ClientIDList": [
+        "<identity provider audience>" 
+    ]
+}
